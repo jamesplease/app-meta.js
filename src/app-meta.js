@@ -7,4 +7,8 @@ function getData(name) {
   return html.hasAttribute(name) ? html.getAttribute(name) : undefined;
 }
 
+const ENV = getData('env');
+const VERSION = getData('version');
+const SHA = getData('sha');
+
 export default {ENV, VERSION, SHA};
