@@ -8,13 +8,13 @@ Access meta data about an application.
 [![Dependency Status](https://david-dm.org/jmeas/app-meta.svg)](https://david-dm.org/jmeas/app-meta)
 [![devDependency Status](https://david-dm.org/jmeas/app-meta/dev-status.svg)](https://david-dm.org/jmeas/app-meta#info=devDependencies)
 
-Often, you will want to know meta information about the application you are working on. Three common values are:
+A common feature I include in my client side apps is meta information about the application itself. Three common values are:
 
 - the version
 - the commit SHA that is deployed
 - the environment
 
-This library provides a system to store and access those bits of data.
+This library provides a simple method to store and access those bits of data that you can use across all of your apps.
 
 ### Use
 
@@ -34,9 +34,18 @@ Then, require in this library.
 ```js
 import meta from 'path/to/app-meta';
 
-console.log(`Got some data:
-  meta.VERSION, 
-  meta.SHA, 
+console.log(
+  'Got some data:', 
+  meta.VERSION,
+  meta.SHA,
   meta.ENV
-`);
+);
 ```
+
+### Browser Support
+
+Should work in IE6+
+
+### Module Support
+
+It exports UMD, so it should work in AMD, CJS, and as a browser global (`window.meta`).
