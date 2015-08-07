@@ -7,9 +7,4 @@ function getData(name) {
   return html.hasAttribute(name) ? html.getAttribute(name) : undefined;
 }
 
-// Access, then export, our data
-export const ENV = getData('env');
-export const VERSION = getData('version');
-export const SHA = getData('sha');
-
 export default {ENV, VERSION, SHA};
