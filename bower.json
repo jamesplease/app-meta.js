@@ -1,0 +1,27 @@
+{
+  "name": "app-meta",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jmeas/app-meta.js",
+  "authors": [
+    "Jmeas <jellyes2@gmail.com>"
+  ],
+  "description": "Access meta data about an application.",
+  "main": "dist/app-meta.js",
+  "keywords": [
+    "app",
+    "meta",
+    "client-side",
+    "information",
+    "version",
+    "env",
+    "sha"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

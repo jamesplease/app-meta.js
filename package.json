@@ -16,7 +16,15 @@
   "files": [
     "app"
   ],
-  "keywords": [],
+  "keywords": [
+    "app",
+    "meta",
+    "client-side",
+    "information",
+    "version",
+    "env",
+    "sha"
+  ],
   "author": "Jmeas <jellyes2@gmail.com>",
   "license": "MIT",
   "bugs": {
