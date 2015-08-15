@@ -1,6 +1,6 @@
 {
   "name": "app-meta",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Access meta data about an application.",
   "main": "dist/app-meta.js",
   "scripts": {
